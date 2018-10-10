@@ -1,0 +1,2 @@
+var is_mobile='';if(is_mobile=='1'){$('.i-w-pay-money').addClass('i-w-pay-money-mobile');}
+$('body').on('change','.a-u-pic-show input',function(){var img=document.createElement('img');var _this=$(this);window.URL=window.URL||window.webkitURL;var imgFile=$(this).get(0);if(window.URL&&imgFile.files[0]){var reader=new FileReader();reader.readAsDataURL(imgFile.files[0]);reader.onload=function(e){var img='<img src="'+this.result+'" alt=""/>';_this.parent().find('img').remove();_this.parent().append(img);$('.i-b-a-face').css('background-image','url('+this.result+')');}}});

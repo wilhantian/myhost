@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+.i-n-name span{color:#000000;}
+.i-top-time{color:#000000;}
+.i-top-berry-num{color:#000000;}
+.i-n-count{color:#12b7f5;}
+
+
+.i-signal {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-signal5_2.png") no-repeat scroll 0 0;
+    width: 85px;
+}
+.i-signal1 {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-signal1_2.png") no-repeat scroll 0 0;
+}
+.i-signal2 {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-signal2_2.png") no-repeat scroll 0 0;
+}
+.i-signal3 {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-signal3_2.png") no-repeat scroll 0 0;
+}
+.i-signal4 {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-signal4_2.png") no-repeat scroll 0 0;
+}
+.i-signal5 {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-signal5_2.png") no-repeat scroll 0 0;
+}
+
+
+.i-c-dx {
+    background: rgba(0, 0, 0, 0) url("../images/i-carrier-dx_2.png") no-repeat scroll center 0;
+}
+.i-c-yd {
+    background: rgba(0, 0, 0, 0) url("../images/i-carrier-yd_2.png") no-repeat scroll center 0;
+}
+.i-c-lt {
+    background: rgba(0, 0, 0, 0) url("../images/i-carrier-lt_2.png") no-repeat scroll center 0;
+}
+
+.i-n-wifi {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-wifi_2.png") no-repeat scroll 0 0;
+}
+.i-n-e {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-e_2.png") no-repeat scroll center 0;
+    width: 35px;
+}
+.i-n-g {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-g_2.png") no-repeat scroll center 0;
+    width: 35px;
+}
+.i-n-3g {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-3g_2.png") no-repeat scroll center 0;
+    width: 50px;
+}
+.i-n-4g {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-4g_2.png") no-repeat scroll center 0;
+    width: 50px;
+}
+.i-top-berry, .i-top-berry2 {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-berry1_2.png") no-repeat scroll 0 0;
+    position: relative;
+    width: 70px;
+}
+.i-top-berry2 {
+    background: rgba(0, 0, 0, 0) url("../images/i-top-berry2_2.png") no-repeat scroll right 0;
+    width: 95px;
+}
+.i-top-berry i em{background:#000000;}
+
+
+.i-top-dir{width: 30px;background: url("../images/i-top-dir_2.png") no-repeat;}
+
+.i-n-user{width:140px;background:url("../images/i-n-user-msg.png") no-repeat;}
+/*以上为修改顶部内容为黑色样式*/
+
+
+
+
+.i-b-a-face{!important;width: 44px;height: 44px;position: absolute;top:21px;left:186px;overflow: hidden;}
+.i-b-a-face img{width:43px;height:43px;}
+
+.i-b-a-face_box{width:44px;height:44px;position: absolute;top:20px;left:185px;background:url("../images/software/alipay/face_box.png") no-repeat;background-size: 100%;border:none;z-index:100;}
+
+.i-b-a-mayi{width:21px;height:21px;position:absolute;top:45px;left:216px;background:url("../images/software/alipay/mayi_vip_ico.png") no-repeat;background-size: 100%;z-index:101;}
+
+.i-b-a-username{top:26px;left:250px;font-size:24px;font-weight:bold;}
+
+.i-b-a-money{width:100%;top:90px;text-align:center;font-size:52px;color:#000000;}
+
+.i-b-a-pay-type{display:block;top:220px;color:#868686;font-size:22px;}
+.i-b-a-email{top:326px;left:0;padding:0;margin:0;padding-right:22px;font-size:22px;color:#868686;width:100%;text-align:right;}
+.i-b-a-liyou{top:278px;left:0;padding:0;margin:0;padding-right:22px;font-size:22px;color:#868686;width:100%;text-align:right;}
+.i-b-a-time{top:396px;left:0;padding:0;margin:0;padding-right:22px;font-size:22px;color:#868686;width:100%;text-align:right;}
+.i-b-a-trade{top:442px;left:0;padding:0;margin:0;padding-right:22px;font-size:22px;color:#868686;width:100%;text-align:right;}
+.i-bottom{background:none;background:#f5f5f9;}
+.iphone{background:#f5f5f9;}
+
+
