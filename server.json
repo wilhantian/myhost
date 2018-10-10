@@ -1,0 +1,13 @@
+{
+  "apps" : [{
+  "name"        : "myhost",
+  "script"      : "bin/www",
+  "log_date_format"  : "YYYY-MM-DD HH:mm:SS",
+  "log_file"   : "logs/myhost.log",
+  "error_file" : "logs/myhost-err.log",
+  "out_file"   : "logs/myhost-out.log",
+  "pid_file"   : "logs/myhost.pid",
+ "exec_mode"  : "cluster_mode",
+ "watch"      :  true
+ }]
+}
