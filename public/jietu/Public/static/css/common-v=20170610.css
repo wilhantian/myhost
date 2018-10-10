@@ -72,8 +72,8 @@
 
 a{color: #666;}
 a:focus, a:hover{color: #333;}
-/* #wrapper{position: relative;z-index: 2;background-color: #f8f8f8;} */
-#wrapper{position: relative;background-color: #f8f8f8;}
+#wrapper{position: relative;z-index: 2;background-color: #f8f8f8;}
+/* #wrapper{position: relative;background-color: #f8f8f8;} */
 #page-wrapper{min-height:800px;padding-bottom: 10px;overflow: hidden;}
 .page-header{margin-top: 20px;padding-bottom: 15px;}
 .phone-wrap{border: 1px #ccc solid;position: absolute;right: 15px;top: 0;overflow: hidden;-moz-transform:scale(0.5);-moz-transform-origin:top right;-ms-transform:scale(0.5);-ms-transform-origin:top right;-webkit-transform:scale(0.5);-webkit-transform-origin:top right;transform:scale(0.5);transform-origin:top right;padding: 0 1px 1px 1px;}
