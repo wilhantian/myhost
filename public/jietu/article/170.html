@@ -192,7 +192,7 @@
         var data = result['data'];
         document.title = data['title']+" - 微信对话生成器_在线微信对话转账生成器_微信聊天支付宝转账_爱截图";
         $(".page-header").text(data['title']);
-        $(".doc").html('<div style="font-size: 16px;"><p id="content">'+data['content']+"</p><br><p id=\"posted\">Posted on <span id=\"posted_time\">"+data['created']+"</span> by <a style=\"color: red\" href=\"http://www.wanjietu.com/\">爱截图</a><br></p></div>");
+        $(".doc").html('<div style="font-size: 16px;"><p id="content">'+data['content']+"</p><br><p id=\"posted\">Posted on <span id=\"posted_time\">"+data['created']+"</span> by <a style=\"color: red\" href=\"http://www.498box.com/\">爱截图</a><br></p></div>");
         $("#posted_time").html(data['created']);
         $("#posted").show();
     },function (result) {
@@ -244,11 +244,11 @@
 
     });
     $("#appdown-jump").on('click', function () {
-        window.open("http://app.wanjietu.com");
+        window.open("http://app.498box.com");
     });
     $(".appdown").on('click', function () {
         if (browser.versions.mobile){
-            window.open("http://app.wanjietu.com/mobile.html");
+            window.open("http://app.498box.com/mobile.html");
         }
         else {
             $("#myModal_appdown").modal('show');
