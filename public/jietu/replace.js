@@ -2,10 +2,7 @@ var fs = require('fs');
 var path = require('path');
 
 var str = 
-`<li>
-<a href="about.html">
-<i class="fa fa-file-text fa-fw"></i>关于我们</a>
-</li>`;
+`tic/css/common-v=20170610.css">`;
 
 // var filename = './red.html';
 function replace(filename){
@@ -13,7 +10,15 @@ function replace(filename){
         if(err){
             console.log("读取失败"+filename);
         }else{
-            var newData = data.toString().replace(str, '');
+            var newData = data.toString().replace(str, `tic/css/common-v=20170610.css">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3679359120465431",
+    enable_page_level_ads: true
+    });
+</script>
+</head>`);
             
             fs.writeFile(filename, newData, function(){
                 if(err){
