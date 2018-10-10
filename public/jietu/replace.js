@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 
 var str = 
-`<script src="https://s11.cnzz.com/z_stat.php?id=1259538754&web_id=1259538754" language="JavaScript"></script>`;
+`<a class="tips-water" target="_blank" href="../user/register.html">去水印</a>`;
 
 // var filename = './red.html';
 function replace(filename){
