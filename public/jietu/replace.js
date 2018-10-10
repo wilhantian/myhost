@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 
 var str = 
-``;
+`<script src="https://s11.cnzz.com/z_stat.php?id=1259538754&web_id=1259538754" language="JavaScript"></script>`;
 
 // var filename = './red.html';
 function replace(filename){
